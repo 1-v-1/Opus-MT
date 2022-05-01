@@ -73,3 +73,4 @@ EXPOSE 80
 
 # Run using the virtual environment Python
 CMD ["venv/bin/python3", "server.py", "-c", "services.json", "-p", "80"]
+
